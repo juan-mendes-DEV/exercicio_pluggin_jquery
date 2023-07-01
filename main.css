@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(./imagens/02ba867e545f953631148c89629412b1.jpg);
+    background-repeat:no-repeat ;
+    background-size:1500px;
+    background-position:center top;
+    overflow-y: hidden;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: azure;
+    padding: 5px;
+}
+header h1{
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+}
+header a{
+    position: relative;
+    left: 1200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+header a:hover{
+    color: #00ccff;
+    font-size: 30px;
+    background-image: linear-gradient(50deg,black, white);
+    border-radius: 10px 100px 10px 70px;
+    border: 1px solid #00ccff;
+    padding: 10px;
+}
+footer{
+    position: relative;
+    top:110px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: azure;
+    padding: 15px;
+}
+footer p{
+    margin-left: 550px;
+    font-size: 15px;
+}
+form{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    
+}
+form ul{
+    list-style: none;
+}
+form li input{
+    display: block;
+    width: 50%;
+}
+form button{
+    color: azure;
+    background-image: url(./imagens/maxresdefault.jpg);
+    background-size: 300px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    padding: 10px;
+    width: 50%;
+    font-weight: bold;
+    transition: 1s;
+}
+form button:hover{
+    background-image: url(./imagens/estrelas-de-fundo-galaxia-roxo-700-9842500.jpg);
+    color: #00ccff;
+    border: 1px solid #00ccff ;
+    padding: 11px;
+    
+}
+.container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+    box-shadow: 2px 2px 2px white;
+    border-radius: 10px 100px 10px 100px;
+    max-width: 550px;
+    height: 400px;
+    width: 100%;
+    left: 100px;
+    top: 60px;
+
+}
